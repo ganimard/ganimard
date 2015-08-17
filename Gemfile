@@ -1,4 +1,3 @@
-# Changed by eric
 source 'http://rubygems.org'
 source 'http://rails-assets.org'
 gem 'rails', '4.0.9'
