@@ -1,0 +1,8 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Exclude everything, except /Gemfile, /Gemfile.lock, /README.md
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*
+!/README.md
+!/Gemfile
+!/Gemfile.lock
+!/.gitignore
