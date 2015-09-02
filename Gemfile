@@ -83,7 +83,7 @@ gem 'itunes-search-api'
 gem 'prawn'
 gem 'prawn-table'
 gem 'prawnto'
-gem 'cassandra'
+gem 'cassandra-driver'
 gem 'logstasher'
 gem 'whenever', require: false
 gem 'eu_central_bank', "~> 0.5.0" 
