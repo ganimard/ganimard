@@ -110,3 +110,4 @@ gem 'jquery_file_download-rails'
 gem 'acts_as_xlsx', github: 'teacups/acts_as_xlsx', branch: :handle_chained_method_call_in_column_returns_nil
 gem 'axlsx_rails', '~> 0.3.0'
 gem 'integer-obfuscator'
+gem "rxjs-rails"
