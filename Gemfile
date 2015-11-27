@@ -32,7 +32,7 @@ group :test, :development do
   gem 'fakes3'
 end
 group :qualif, :production do
-  gem 'puma', '~> 2.10.0'
+  gem 'puma', '~> 2.15.3'
 end
 group :assets do
   gem 'sass-rails'
