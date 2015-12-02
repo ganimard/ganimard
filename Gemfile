@@ -48,10 +48,11 @@ gem "jquery-migrate-rails", "~> 1.2.1"
 gem 'jquery-ui-rails'
 gem 'jquery-ui-themes'
 gem "touchpunch-rails", "~> 1.0.1"
-gem 'jquery-datatables-rails' , github: "Teacups/jquery-datatables-rails"
-gem 'rails-assets-datatables-responsive', "1.0.6"
-gem 'rails-assets-datatables-fixedheader', "~> 2.1.0"
+gem 'rails-assets-datatables'
+gem 'rails-assets-datatables-responsive'
+gem 'rails-assets-datatables-fixedheader'
 gem 'rails-assets-datatables-buttons'
+gem 'rails-assets-datatables-scroller'
 gem 'rails-assets-jquery.floatThead'
 gem 'jquery-easing-rails'
 gem 'uri-js-rails'
