@@ -44,6 +44,7 @@ gem 'therubyracer', '~> 0.12', require: 'v8', platforms: :ruby
 gem 'rack-mini-profiler'
 gem 'select2-rails', '~> 3.5.0' 
 gem 'jquery-rails'
+gem 'rails-assets-jquery', '~> 2.1.4'
 gem "jquery-migrate-rails", "~> 1.2.1"
 gem 'jquery-ui-rails'
 gem 'jquery-ui-themes'
