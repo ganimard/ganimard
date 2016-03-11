@@ -109,7 +109,11 @@ gem 'hashids', '~> 1.0.2'
 gem "sidekiq-cron", "~> 0.2.0"
 gem 'posix-spawn'
 gem 'jquery_file_download-rails'
-gem 'acts_as_xlsx', github: 'teacups/acts_as_xlsx', branch: :handle_chained_method_call_in_column_returns_nil
-gem 'axlsx_rails', '~> 0.3.0'
 gem 'integer-obfuscator'
 gem "rxjs-rails"
+gem 'axlsx', '~> 2.1.0.pre'
+gem 'acts_as_xlsx', github: 'teacups/acts_as_xlsx', branch: :handle_chained_method_call_in_column_returns_nil
+gem 'axlsx_rails', '~> 0.3.0'
+gem 'charlock_holmes'
+gem 'roo', '~> 2.3.2'
+gem 'roo-xls'
