@@ -117,4 +117,4 @@ gem 'axlsx_rails', '~> 0.3.0'
 gem 'charlock_holmes'
 gem 'roo', '~> 2.3.2'
 gem 'roo-xls'
-gem 'deeplink', github: 'teacups/deeplink', branch: :fix_array_to_h_for_ruby_2_0
+gem 'deeplink'
