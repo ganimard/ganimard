@@ -74,7 +74,7 @@ gem 'will_paginate'
 gem 'elasticsearch-model'
 gem 'elasticsearch-rails'
 gem "elasticsearch-persistence", require: 'elasticsearch/persistence/model'
-gem "geocoder", github: "Teacups/geocoder", branch: "fix-geocoder"
+gem "geocoder"
 gem 'c_geohash', require: 'geohash'
 gem 'wicked'
 gem 'comma', '~> 3.2.0'
