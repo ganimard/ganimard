@@ -30,6 +30,7 @@ group :test, :development do
   gem 'guard-minitest', platforms: :ruby
   gem 'guard-rake', platforms: :ruby
   gem 'fakes3'
+  gem 'mimic', '~> 0.4.3'
 end
 group :qualif, :production do
   gem 'puma', '~> 3.4.0'
