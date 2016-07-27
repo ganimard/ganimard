@@ -33,7 +33,7 @@ group :test, :development do
   gem 'mimic', '~> 0.4.3'
 end
 group :qualif, :production do
-  gem 'puma', '~> 3.4.0'
+  gem 'puma', '~> 3.6.0'
   gem 'puma_worker_killer'
 end
 group :assets do
