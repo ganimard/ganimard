@@ -42,6 +42,7 @@ group :assets do
   gem 'uglifier'
 end
 gem 'sprockets', '~> 2.12.3'
+gem 'activeresource'
 gem 'therubyracer', '~> 0.12', require: 'v8', platforms: :ruby
 gem 'rack-mini-profiler'
 gem 'select2-rails', '~> 3.5.0' 
