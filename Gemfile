@@ -103,6 +103,8 @@ gem "setler", github: "Teacups/setler", branch: "rails4"
 gem 'license_finder', '~> 2.0.3', platforms: :ruby
 gem 'enumerize', '~> 0.11.0'
 gem 'sidekiq', '~> 3.3.4'
+gem 'rufus-scheduler', '3.2.2'
+gem 'timers', '4.1.1'
 gem "sinatra", require: false
 gem 'sidekiq-status', '0.5.2'
 gem 'redis-rails' 
