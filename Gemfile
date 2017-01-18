@@ -19,6 +19,7 @@ group :test do
   gem 'factory_girl_rails', require: false
   gem 'simplecov', :require => false
   gem "brakeman", :require => false
+  gem 'webmock', '~> 2.1'
 end
 group :test, :development do
   gem 'awesome_print'
