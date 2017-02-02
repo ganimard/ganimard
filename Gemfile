@@ -10,10 +10,6 @@ group :development do
   gem 'meta_request'
   gem 'quiet_assets'
   gem 'rails-erd'
-  gem 'pry-rails'
-  gem 'pry-stack_explorer'
-  gem 'pry-coolline'
-  gem 'pry-byebug'
   gem 'rubocop', require: false
 end
 group :test do
@@ -29,9 +25,6 @@ group :test, :development do
   gem 'minitest-spec-rails'
   gem 'minitest-reporters'
   gem 'minitest-given'
-  gem 'guard', platforms: :ruby
-  gem 'guard-minitest', platforms: :ruby
-  gem 'guard-rake', platforms: :ruby
   gem 'mimic', '~> 0.4.3'
   gem 'fakes3', git: 'https://github.com/jubos/fake-s3'
   gem 'lolcat'
@@ -154,4 +147,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-datatables-scroller'
   gem 'rails-assets-jquery.floatThead'
   gem 'rails-assets-growl'
+end
+local_gemfile = File.dirname(__FILE__) + "/Gemfile.local.rb"
+if File.file?(local_gemfile)
+  self.instance_eval(Bundler.read_file(local_gemfile))
 end
