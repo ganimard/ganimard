@@ -88,7 +88,7 @@ gem "macaddr"
 gem "uuid"
 gem "public_suffix"
 gem 'ruby-druid', git: 'https://github.com/teacups/ruby-druid', branch: 'search_query', require: 'druid', platforms: :ruby
-gem 'chrono_model', git: 'https://github.com/ifad/chronomodel', ref: '59f15cd'
+gem 'chrono_model', git: 'https://github.com/ifad/chronomodel', ref: '5f9e88c'
 gem "setler", git: 'https://github.com/teacups/setler', branch: "rails4"
 gem 'license_finder', platforms: :ruby
 gem 'enumerize'
