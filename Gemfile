@@ -26,7 +26,7 @@ group :test, :development do
   gem 'minitest-reporters'
   gem 'minitest-given'
   gem 'mimic', '~> 0.4.3'
-  gem 'fakes3', git: 'https://github.com/jubos/fake-s3'
+  gem 'fakes3'
   gem 'lolcat'
 end
 group :qualif, :production do
@@ -62,7 +62,7 @@ gem 'simple_form', git: 'https://github.com/plataformatec/simple_form'
 gem 'country_select', '~> 1.2.0'
 gem 'paperclip'
 gem 'aws-sdk-rails'
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk', '2.7.6' 
 gem 'nested_form'
 gem 'will_paginate'
 gem 'elasticsearch-model'
