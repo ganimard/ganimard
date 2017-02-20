@@ -131,6 +131,7 @@ gem 'kaminari-sinatra'
 gem 'kaminari-grape'
 gem 'knock'
 gem 'hashie-forbidden_attributes' 
+gem 'hashie', '~> 3.4.6'
 gem 'activesupport-json_encoder'
 source 'https://rails-assets.org' do
   gem 'rails-assets-jquery', '~> 2.2.4'
