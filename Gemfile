@@ -91,7 +91,7 @@ gem 'ruby-druid', git: 'https://github.com/teacups/ruby-druid', branch: 'search_
 gem 'chrono_model', git: 'https://github.com/ifad/chronomodel', ref: '5f9e88c'
 gem "setler", git: 'https://github.com/teacups/setler', branch: "rails4"
 gem 'license_finder', platforms: :ruby
-gem 'enumerize'
+gem 'enumerize', '2.0.1'
 gem 'sidekiq'
 gem "sinatra", require: false
 gem 'sidekiq-status'
