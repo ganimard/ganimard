@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', git: 'https://github.com/rails/rails', branch: '4-2-stable'
 gem 'pg'
-gem 'activerecord-native_db_types_override' 
+gem 'activerecord-native_db_types_override'
 group :development do
   gem 'web-console'
   gem 'spring'
@@ -97,6 +97,7 @@ gem "sinatra", require: false
 gem 'sidekiq-status'
 gem "sidekiq-cron"
 gem 'redis-rails' 
+gem 'redis-namespace'
 gem 'selectize-rails'
 gem 'masonry-rails'
 gem 'hashids'
