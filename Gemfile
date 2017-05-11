@@ -30,7 +30,7 @@ group :test, :development do
   gem 'lolcat'
 end
 group :qualif, :production do
-  gem 'puma', '~> 3.6.0'
+  gem 'puma', '~> 3.8.2'
   gem 'puma_worker_killer'
 end
 group :assets do
@@ -40,7 +40,7 @@ group :assets do
 end
 gem 'responders'
 gem 'sprockets'
-gem 'activeresource'
+gem 'activeresource', '~> 4.1.0'
 gem 'therubyracer', '~> 0.12', require: 'v8', platforms: :ruby
 gem 'rack-mini-profiler'
 gem 'select2-rails', '~> 3.5.0'
@@ -91,9 +91,9 @@ gem 'ruby-druid', git: 'https://github.com/teacups/ruby-druid', branch: 'search_
 gem 'chrono_model', git: 'https://github.com/ifad/chronomodel', ref: '5f9e88c'
 gem "setler", git: 'https://github.com/teacups/setler', branch: "rails4"
 gem 'license_finder', platforms: :ruby
-gem 'enumerize', '2.0.1'
+gem 'enumerize'
 gem 'sidekiq'
-gem "sinatra", require: false
+gem "sinatra", '~> 1.4.8', require: false
 gem 'sidekiq-status'
 gem "sidekiq-cron"
 gem 'redis-rails' 
@@ -127,7 +127,7 @@ gem 'grape-entity'
 gem 'grape-cancan'
 gem 'grape-active_model_serializers'
 gem 'grape-kaminari'
-gem 'kaminari', '1.0.0'
+gem 'kaminari'
 gem 'kaminari-sinatra'
 gem 'kaminari-grape'
 gem 'knock'
