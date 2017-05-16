@@ -94,6 +94,7 @@ gem 'license_finder', platforms: :ruby
 gem 'enumerize'
 gem 'sidekiq'
 gem "sinatra", '~> 1.4.8', require: false
+gem 'padrino-helpers', '0.14.0.2'
 gem 'sidekiq-status'
 gem "sidekiq-cron"
 gem 'redis-rails' 
