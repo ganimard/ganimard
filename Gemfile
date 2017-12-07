@@ -14,7 +14,7 @@ group :development do
 end
 group :test do
   gem 'sqlite3'
-  gem 'factory_girl_rails', require: false
+  gem 'factory_bot_rails', require: false
   gem 'simplecov', :require => false
   gem "brakeman", :require => false
   gem 'webmock', '~> 2.1'
@@ -65,6 +65,7 @@ gem 'aws-sdk-rails'
 gem 'aws-sdk', '2.7.6' 
 gem 'nested_form'
 gem 'will_paginate'
+gem 'elasticsearch', '~> 5.0.4'
 gem 'elasticsearch-model', '~> 0.1.9'
 gem 'elasticsearch-rails', '~> 0.1.9'
 gem "elasticsearch-persistence", '~> 0.1.9', require: 'elasticsearch/persistence/model'
