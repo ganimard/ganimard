@@ -71,6 +71,7 @@ gem 'elasticsearch-rails', '~> 0.1.9'
 gem "elasticsearch-persistence", '~> 0.1.9', require: 'elasticsearch/persistence/model'
 gem "geocoder"
 gem 'c_geohash', require: 'geohash'
+gem 'rgeo-geojson', '~> 0.4.3'
 gem 'wicked'
 gem 'comma'
 gem 'murmurhash3'
